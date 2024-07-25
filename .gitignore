@@ -4,6 +4,8 @@
 *.ndf
 *.ldf
 *.trn
+*.ssmssqlproj
+
 
 # Ignore SQL Server Management Studio (SSMS) settings and project files
 *.suo
