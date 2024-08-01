@@ -12,6 +12,7 @@
 .vscode/
 *.dbmdl
 *.log
+*.ssms_suo
 
 # Ignore local development configuration files
 appsettings.Development.json
