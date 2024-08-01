@@ -1,0 +1,40 @@
+# Ignore database files and backups
+*.bak
+*.mdf
+*.ndf
+*.ldf
+*.trn
+
+# Ignore SQL Server Management Studio (SSMS) settings and project files
+*.suo
+*.user
+*.vscode
+.vscode/
+*.dbmdl
+*.log
+
+# Ignore local development configuration files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Ignore any temporary files or build outputs
+tmp/
+temp/
+build/
+bin/
+obj/
+*.log
+
+# Ignore node_modules for projects involving Node.js
+node_modules/
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Visual Studio specific files and directories
+.vs/
+*.VC.db
+*.VC.opendb
