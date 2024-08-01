@@ -47,7 +47,7 @@ CREATE TABLE [Orders]
     [Orderdateltz] DATETIMEOFFSET NOT NULL,
     [Emplid]       INT            NOT NULL FOREIGN KEY REFERENCES [EmployeesData] ([Empl_id]),
     [Prodid]       INT            NOT NULL FOREIGN KEY REFERENCES [Products] ([ProdID]),
-    [Qty]          SMALLINT       NOT NULL CHECK([qty] > 0),
+    [Qty]          SMALLINT       NOT NULL CHECK([qty]> 0),
     [Amount]       NUMERIC(15, 2)
 )
 
