@@ -3,15 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 19.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lesson2 (Datatypes)", "..\Lesson2 (Datatypes)\Lesson2 (Datatypes).ssmssqlproj", "{6A343CD1-96C3-43B3-BC97-7A24D8031D1B}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lesson2 (Datatypes)", "Lesson2 (Datatypes)\Lesson2 (Datatypes).ssmssqlproj", "{DDD03B5D-292E-4B05-A7A7-CE94D0C936CB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lesson3(Constraints)", "Lesson3(Constraints)\Lesson3(Constraints).ssmssqlproj", "{29BBC8A6-CDD0-437B-B73B-D04EA884DA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F21D84F-F4B0-4F9E-90E9-CE5474B8C8B6}.Default|Default.ActiveCfg = Default
-		{6A343CD1-96C3-43B3-BC97-7A24D8031D1B}.Default|Default.ActiveCfg = Default
+		{DDD03B5D-292E-4B05-A7A7-CE94D0C936CB}.Default|Default.ActiveCfg = Default
+		{8C9C9910-02B5-479C-990B-4DE223F46AA0}.Default|Default.ActiveCfg = Default
+		{29BBC8A6-CDD0-437B-B73B-D04EA884DA89}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

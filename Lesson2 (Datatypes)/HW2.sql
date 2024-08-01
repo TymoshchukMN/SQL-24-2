@@ -67,8 +67,8 @@ INSERT INTO CustomersData
 )
 VALUES
 (
-	N'Іванов',
-	N'Іван',
+	N'??????',
+	N'????',
 	'1950-01-01',
 	35,
 	'UA',
