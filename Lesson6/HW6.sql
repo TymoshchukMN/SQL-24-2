@@ -8,7 +8,7 @@ USE [SQL 24-2];
 
 SELECT [OFFICE]
        ,[CITY]
-	   ,[MGR]
+       ,[MGR]
   FROM [dbo].[OFFICES]
  WHERE [TARGET] <= 350000.00 AND [REGION] = 'Eastern';
 
@@ -73,7 +73,7 @@ ORDER BY SUM([AMOUNT]) DESC;
 
   SELECT TOP(1)
     WITH TIES
-	     [REP_OFFICE]
+         [REP_OFFICE]
          ,COUNT(*) AS "number of employees"
     FROM [dbo].[SALESREPS] 
    WHERE [TITLE] = 'Sales Rep' AND [AGE] IN (29, 45, 48)
