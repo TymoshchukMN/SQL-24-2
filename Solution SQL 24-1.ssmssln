@@ -13,17 +13,20 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Additional tasks", "Additio
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lesson5(Select)", "Lesson5(Select)\Lesson5(Select).ssmssqlproj", "{62E331FA-FAC2-46A1-A262-E5966383158D}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lesson6", "Lesson6\Lesson6.ssmssqlproj", "{26C5CF1F-2D96-43F8-ACAC-FEA1A8A07626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{774B2374-AE33-4164-9B19-4066D621A951}.Default|Default.ActiveCfg = Default
 		{DDD03B5D-292E-4B05-A7A7-CE94D0C936CB}.Default|Default.ActiveCfg = Default
 		{64975CF3-BB12-46B8-B8B0-11734FE8567A}.Default|Default.ActiveCfg = Default
 		{71607DA9-C38A-4A3E-805E-BDC6E9E52DE4}.Default|Default.ActiveCfg = Default
 		{EF0D3088-3E74-4935-B107-CBCF5391765A}.Default|Default.ActiveCfg = Default
-		{F6E24316-811A-49D7-99C4-96F1B1A291C1}.Default|Default.ActiveCfg = Default
 		{62E331FA-FAC2-46A1-A262-E5966383158D}.Default|Default.ActiveCfg = Default
+		{26C5CF1F-2D96-43F8-ACAC-FEA1A8A07626}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
