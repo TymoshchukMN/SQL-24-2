@@ -28,7 +28,7 @@ ORDER BY LEN([DESCRIPTION]) DESC;
 --- The resultset contains: the concatenated string, the length of the concatenated string.
 --- Sort the resulting data set by the length of the concatenated string (descending)
 
-  SELECT DISTINCT TRIM(CONCAT_WS(CHAR(32), [MFR_ID], [PRODUCT_ID], [DESCRIPTION])) AS "concatenated string",
+  SELECT DISTINCT TRIM(CONCAT_WS(CHAR(32), [MFR_ID], [PRODUCT_ID], [DESCRIPTION])) AS [concatenated string],
                   LEN(TRIM(CONCAT_WS(CHAR(32), [MFR_ID], [PRODUCT_ID], [DESCRIPTION]))) AS "number of characters"
     FROM [dbo].PRODUCTS
    WHERE [PRODUCT_ID] NOT LIKE  '%[^0-9]%'
